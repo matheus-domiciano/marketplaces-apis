@@ -42,7 +42,7 @@ export async function getRefreshToken() {
     });
 
   const { data } = await axios.post(PRINCIPAL_URL, params.toString(), { headers });  
-  return data
+  return data;
   
 }
 
